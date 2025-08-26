@@ -1,7 +1,7 @@
 function ItemMoto ({marca_moto, ano_lancamento, modelo_moto, cor_moto}) {
     return(
         <>
-            <li> {marca_moto} - {ano_lancamento} - {modelo_moto} - {cor_moto} </li>
+            <ul> {marca_moto} - {ano_lancamento} - {modelo_moto} - {cor_moto} </ul>
         </>
     )
 }
